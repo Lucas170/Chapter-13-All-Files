@@ -97,7 +97,7 @@ int start() {
    //| Variable Setup                                                   |
    //+------------------------------------------------------------------+
 
-   sma10_1 = iMA(NULL, 0, sma_short, 0, MODE_SMA, PRICE_CLOSE, 1); // c
+   sma10_1 = iMA(NULL, 0, sma_short, 0, MODE_SMA, PRICE_CLOSE, 2); // c
    sma10_2 = iMA(NULL, 0, sma_short, 0, MODE_SMA, PRICE_CLOSE, 2); // b
    sma40_1 = iMA(NULL, 0, sma_long, 0, MODE_SMA, PRICE_CLOSE, 1); // d
    sma40_2 = iMA(NULL, 0, sma_long, 0, MODE_SMA, PRICE_CLOSE, 2); // a
